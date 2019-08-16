@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+----------> Answer: React JS is a UI library creaed by facebook. It is open-source which means anyone can use it and it's good to go out of the box with some installation and imports/exports. The way that makes the most sense to me about it's purpose and advantages is that it allows devs to be dry and allows us to make changes to the UI without having to rummage through a bunch of files or if we don't have access to those files.
+
 - [ ] What does it mean to _think_ in react?
+
+----------> Answer: I don't honestly remember hearing this term specifically used but I believe it has to do with the how easy it is to use React JS once you understand it. Basically plan it out on a piece of paper or in your head and build from there. It doesn't require as much prep and layout as vanilla building.
 
 - [ ] Describe state.
 
+----------> Answer: State is a way of latching onto something and pulling it in and calling it to reuse later.
+
 - [ ] Describe props.
 
+----------> Answer: props give us the ability to outline a piece of data and then reuse it by passing through different variables.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+----------> Answer: side effects are simple behaviors or things that happen.
 
 ## Project Set Up
 
