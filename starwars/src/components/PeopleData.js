@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Name from "./components/Name";
+import NameCard from "./NameCard";
 
 export default function PeopleData() {
     const [swapiData, setSwapiData] = useState([]);
@@ -10,18 +10,19 @@ export default function PeopleData() {
         .get("https://swapi.co/api/people/")
         .then(res => {
             console.log(res.data);
-            setSwapiData(res.data);
+            setSwapiData(res.data.results);
         })
     }, []);
 
     return (
-        <div className="container">
-           {people.map(people => {
+        <div className="infoIntro">
+           {swapiData.map(people => {
             return (
-            <Name 
+            <NameCard 
             key={people.id}
             id={people.id}
             name={people.name}
+            gender={people.gender}
             />
             );
            })}
